@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  background-size: cover;
+}
+.card-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  text-align: center;
+}
+.head {
+  color: #0b69ff;
+  font-size: 35px;
+  font-family: roboto;
+}
+.para {
+  color: #333333;
+  font-size: 25px;
+  font-family: roboto;
+}
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: roboto;
+  border-radius: 8px;
+}
+
+.random-number {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 24px;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    width: 35%;
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .random-number {
+    font-size: 48px;
+  }
+}
